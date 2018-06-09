@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_view"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/menu_nav">
+
+    <Button
+        android:id="@+id/login_out"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_exit"/>
+
+    <TextView
+        android:id="@+id/tao_icon"
+        android:layout_margin="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#666"
+        android:text="tao_icon"/>
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tao_icon"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/accent"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tao_icon"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/reputation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/username"
+        android:layout_margin="15dp"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
